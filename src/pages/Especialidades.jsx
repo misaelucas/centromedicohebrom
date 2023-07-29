@@ -6,13 +6,13 @@ function Especialidades() {
     <>
       <Header />
       <div className="text-center">
-        <div className="flex flex-col justify-center bg-[#1d2b4e] m-2 mt-2 sm:mt-6 rounded-md shadow-lg text-white">
-          <div className="flex flex-wrap gap-2 mt-4 font-medium ustify-center  mb-3  sm:justify-around ">
-            <div className="rounded-lg p-2 bg-slate-900 sm:p-4 ">
-              <h1 className="text-xl sm:text-3xl  md:text-4xl text-start  font-semibold">
-                Especialidades Clínicas
+        <div className="flex flex-col justify-center bg-[#1d2b4e] m-2 mt-2 min-w-96 sm:mt-6 rounded-md shadow-lg text-white">
+          <div className="flex flex-wrap gap-2 mt-4 font-medium justify-center mb-3 sm:justify-around ">
+            <div className="rounded-lg w-80 sm:w-96 bg-slate-900 mx-2 px-4 sm:p-4 ">
+              <h1 className="text-xl sm:text-3xl mt-2 px-2 md:text-4xl text-start  font-semibold">
+                Especialiades
               </h1>
-              <div className="text-start  mt-2 p-2  w-80">
+              <div className="text-start justify-start flex  px-4 mt-4 p-2 ">
                 <ul>
                   <li>Cardiologista</li>
                   <li>Clínico Geral</li>
@@ -31,14 +31,12 @@ function Especialidades() {
               </div>
             </div>
 
-            <div className="rounded-lg p-2 bg-slate-900 sm:p-4">
-              <div>
-                <h1 className="text-xl sm:text-3xl md:text-4xl text-start font-semibold">
-                  Exames
-                </h1>
-              </div>
-              <div className="text-start mt-2 p-2 flex w-80">
-                <ul>
+            <div className="rounded-lg w-80 sm:w-96 bg-slate-900 mx-2 px-4 sm:p-4 ">
+              <h1 className="text-xl sm:text-3xl mt-2 px-2 md:text-4xl text-start  font-semibold">
+                Exames
+              </h1>
+              <div className="text-center  justify-start   px-4 mt-2 p-2 ">
+                <ul className="text-start">
                   <li>Audiometria</li>
                   <li>Biópsia</li>
                   <li>Ecocardiograma</li>
