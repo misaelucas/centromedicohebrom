@@ -5,7 +5,7 @@ import App from "./App";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Contato from "./pages/Contato";
 import Especialidades from "./pages/Especialidades";
-import About from "./pages/About/About";
+import About from "./pages/About";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
