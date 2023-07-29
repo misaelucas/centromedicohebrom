@@ -5,14 +5,15 @@ function Especialidades() {
   return (
     <>
       <Header />
-      <div className="flex  mt-4 flex-col text-white">
-        <div className="text-center text-3xl">
-          Especialidades:
-          <div className="flex mt-6 w-full  justify-center list-none">
-            <div className="text-2xl   text-center w-1/2">
-              Especialidades Clínicas:
-              <div className="bg-slate-800 text-justify ml-36 p-2 rounded">
-                <div className="bg-red-200 w-80">
+      <div className="text-center">
+        <div className="flex flex-col justify-center bg-[#1d2b4e] m-2 mt-2 sm:mt-6 rounded-md shadow-lg text-white">
+          <div className="flex flex-wrap gap-2 mt-4 font-medium ustify-center  mb-3  sm:justify-around ">
+            <div className="rounded-lg p-2 bg-slate-900 sm:p-4 ">
+              <h1 className="text-xl sm:text-3xl  md:text-4xl text-start  font-semibold">
+                Especialidades Clínicas
+              </h1>
+              <div className="text-start  mt-2 p-2  w-80">
+                <ul>
                   <li>Cardiologista</li>
                   <li>Clínico Geral</li>
                   <li>Cirurgião Vascular</li>
@@ -26,33 +27,39 @@ function Especialidades() {
                   <li>Otorrinolaringologista</li>
                   <li>Psicóloga</li>
                   <li>Reumatologista</li>
-                </div>
+                </ul>
               </div>
             </div>
-            <div className="text-2xl text-center w-1/2">
-              Exames:
-              <div className="bg-red-500 text-">
-                <li>Audiometria</li>
-                <li>Biópsia </li>
-                <li>Ecocardiograma</li>
-                <li>Eletrocardiograma</li>
-                <li>Eletroencefalograma</li>
-                <li>Endoscopia </li>
-                <li>Holter </li>
-                <li>Mapa </li>
-                <li>Raio-x</li>
-                <li>Ultrassonografia Abd Total </li>
-                <li>Ultrassonografia Abd Inferior</li>
-                <li>Ultrassonografia Abd Superior </li>
-                <li>Ultrassonografia Bolsa Escrotal </li>
-                <li>Ultrassonografia Rins e Vias Urinárias </li>
-                <li>Ultrassonografia Prostáta </li>
+
+            <div className="rounded-lg p-2 bg-slate-900 sm:p-4">
+              <div>
+                <h1 className="text-xl sm:text-3xl md:text-4xl text-start font-semibold">
+                  Exames
+                </h1>
+              </div>
+              <div className="text-start mt-2 p-2 flex w-80">
+                <ul>
+                  <li>Audiometria</li>
+                  <li>Biópsia</li>
+                  <li>Ecocardiograma</li>
+                  <li>Eletrocardiograma</li>
+                  <li>Eletroencefalograma</li>
+                  <li>Endoscopia</li>
+                  <li>Holter</li>
+                  <li>Mapa</li>
+                  <li>Raio-x</li>
+                  <li>Ultrassonografia Abd Total</li>
+                  <li>Ultrassonografia Abd Inferior</li>
+                  <li>Ultrassonografia Abd Superior</li>
+                  <li>Ultrassonografia Bolsa Escrotal</li>
+                  <li>Ultrassonografia Rins e Vias Urinárias</li>
+                  <li>Ultrassonografia Prostáta</li>
+                </ul>
               </div>
             </div>
           </div>
         </div>
       </div>
-
       <Footer />
     </>
   );
