@@ -33,12 +33,12 @@ function About() {
               R. Pref. Joaquim Ferreira, 30, Santana do Ipanema - AL, 57500-000
             </p>
           </div>
-          <div className="w-full mt-2 rounded">
+          <div className="w-full mt-2  rounded">
             <div
               style={{
                 position: "relative",
                 overflow: "hidden",
-                paddingTop: "16.25%",
+                height: "300px"
               }}
             >
               <iframe
