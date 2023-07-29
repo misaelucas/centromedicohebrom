@@ -37,7 +37,7 @@ function Footer() {
       </div>
       <div className="flex flex-wrap justify-center text-sm">
         <div className="flex ">
-          made with love by
+          made by
           <a className="ml-1" href="https://github.com/misaelucas">
             misa
           </a>
