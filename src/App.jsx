@@ -5,7 +5,7 @@ import MainPage from "./components/MainPage";
 
 function App() {
   return (
-    <div className="App font-sans">
+    <div className="App fade-in font-sans">
       <Header />
       <MainPage />
       <Footer />
